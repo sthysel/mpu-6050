@@ -3,6 +3,7 @@
 import smbus
 import math
 import json
+address = 0x68
 
 POWER_MANAGEMENT_1 = 0x6b
 POWER_MANAGEMENT_2 = 0x6c
@@ -52,7 +53,6 @@ def get_x_rotation(x, y, z):
 
 
 bus = smbus.SMBus(1)
-address = 0x68
 
 bus.write_byte_data(address, POWER_MANAGEMENT_1, 0)
 

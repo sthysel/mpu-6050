@@ -1,16 +1,5 @@
---index-url http://iorper-hdl01:3141/magnet/release
-
 click==6.7
 attentive==0.1.5
 knobs==0.2.16
 tabulate==0.7.7
 arrow==0.10.0
-orionsdk==0.0.6
-
-magnet-persist==0.0.6
-magnet-inventory==0.0.10
-magnet-logger==0.0.2
-
-# git+ssh://sdappsgit.ent.bhpbilliton.net:7999/mag/magnet-persist.git#egg=magnet_persist
-# git+ssh://sdappsgit.ent.bhpbilliton.net:7999/mag/magnet-inventory.git#egg=magnet_inventory
-# git+ssh://sdappsgit.ent.bhpbilliton.net:7999/mag/magnet-logger.git#egg=magnet_logger
